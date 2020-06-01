@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php _e( 'Redirecting...', 'simply-static' ); ?></title>
-		<meta http-equiv="refresh" content="0;url=<?php echo $this->redirect_url; ?>">
-	</head>
-	<body>
-		<script type="text/javascript">
-			window.location = "<?php echo $this->redirect_url; ?>";
-		</script>
-
-		<p><?php echo sprintf( __( "You are being redirected to %s", 'simply-static' ), '<a href="' . $this->redirect_url . '">' . $this->redirect_url . '</a>' ); ?></p>
-	</body>
-</html>
+		<title><br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function _e() in /Applications/AMPPS/www/mraufqureshiwebsite/wp-content/plugins/simply-static/views/redirect.php:4
+Stack trace:
+#0 {main}
+  thrown in <b>/Applications/AMPPS/www/mraufqureshiwebsite/wp-content/plugins/simply-static/views/redirect.php</b> on line <b>4</b><br />
