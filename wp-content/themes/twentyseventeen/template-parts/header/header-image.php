@@ -1,20 +1,8 @@
-<?php
-/**
- * Displays header media
- *
- * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since Twenty Seventeen 1.0
- * @version 1.0
- */
-
-?>
 <div class="custom-header">
 
 		<div class="custom-header-media">
-			<?php the_custom_header_markup(); ?>
-		</div>
-
-	<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
-
-</div><!-- .custom-header -->
+			<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function the_custom_header_markup() in /Applications/AMPPS/www/mraufqureshiwebsite/wp-content/themes/twentyseventeen/template-parts/header/header-image.php:15
+Stack trace:
+#0 {main}
+  thrown in <b>/Applications/AMPPS/www/mraufqureshiwebsite/wp-content/themes/twentyseventeen/template-parts/header/header-image.php</b> on line <b>15</b><br />
